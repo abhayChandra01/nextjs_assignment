@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #333; /* Background color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555; /* Color of the draggable part */
+  border-radius: 8px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #777; /* Color when hovering */
+}
